@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private long id;
     private String name;
     private boolean active;
